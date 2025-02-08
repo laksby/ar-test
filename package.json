@@ -14,29 +14,30 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@zappar/zappar-react-three-fiber": "^2.5.2",
     "gatsby": "^5.12.4",
-    "gatsby-source-filesystem": "^5.12.0",
-    "gatsby-transformer-json": "^5.12.0",
+    "gatsby-source-filesystem": "^5.14.0",
+    "gatsby-transformer-json": "^5.14.0",
     "normalize.css": "^8.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-use": "^17.5.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-use": "^17.6.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-decorators": "^7.24.1",
-    "@types/node": "^20.11.30",
-    "@types/react": "^18.2.67",
-    "@types/react-dom": "^18.2.22",
+    "@babel/plugin-proposal-decorators": "^7.25.9",
+    "@types/node": "^22.13.1",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
     "autoprefixer": "^10.4.17",
     "babel-preset-gatsby": "^3.12.0",
-    "cssnano": "^6.1.0",
-    "gatsby-plugin-postcss": "^6.13.1",
-    "husky": "^9.0.11",
+    "cssnano": "^7.0.6",
+    "gatsby-plugin-postcss": "^6.14.0",
+    "husky": "^9.1.7",
     "postcss": "^8.4.37",
-    "postcss-import": "^16.0.1",
-    "postcss-preset-env": "^9.5.2",
-    "prettier": "^3.2.5",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.2"
+    "postcss-import": "^16.1.0",
+    "postcss-preset-env": "^10.1.3",
+    "prettier": "^3.4.2",
+    "tailwindcss": "^4.0.4",
+    "typescript": "^5.7.3"
   }
 }
