@@ -1,4 +1,4 @@
-const tailwind = require('tailwindcss');
+const tailwind = require('@tailwindcss/postcss');
 const autoprefixer = require('autoprefixer');
 const postcssPresetEnv = require('postcss-preset-env');
 const postcssImport = require('postcss-import');
