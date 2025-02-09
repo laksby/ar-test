@@ -26,3 +26,7 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = args =
     });
   }
 };
+
+export const onPreBuild: GatsbyNode['onPreBuild'] = () => {
+  process.exit(0);
+};
