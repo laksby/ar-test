@@ -5,9 +5,19 @@ import {
   ZapparCamera,
   ZapparCanvas,
 } from '@zappar/zappar-react-three-fiber';
-import { FC } from 'react';
+import { FC, useEffect, useState } from 'react';
 
 export const IndexPage: FC = () => {
+  const [hasMounted, setHasMounted] = useState(false);
+
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
+  if (!hasMounted) {
+    return null;
+  }
+
   return (
     <main className="tw:h-dvh">
       <BrowserCompatibility />
