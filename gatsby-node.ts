@@ -12,4 +12,17 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = args =
       ],
     },
   });
+
+  if (args.stage === 'build-html' || args.stage === 'develop-html') {
+    args.actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /@zappar\/zappar-react-three-fiber/,
+            use: args.loaders.null(),
+          },
+        ],
+      },
+    });
+  }
 };
